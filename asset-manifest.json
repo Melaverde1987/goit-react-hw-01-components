@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Melaverde1987/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/Melaverde1987/goit-react-hw-01-components/static/js/main.d6bef6c4.js",
+    "main.js": "/Melaverde1987/goit-react-hw-01-components/static/js/main.07d3183d.js",
     "index.html": "/Melaverde1987/goit-react-hw-01-components/index.html",
     "main.7acaea2f.css.map": "/Melaverde1987/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.d6bef6c4.js.map": "/Melaverde1987/goit-react-hw-01-components/static/js/main.d6bef6c4.js.map"
+    "main.07d3183d.js.map": "/Melaverde1987/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.d6bef6c4.js"
+    "static/js/main.07d3183d.js"
   ]
 }

@@ -47,6 +47,22 @@ img {
   object-fit: cover;
 }
 
+th,
+td {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: var(--colorSecondary);
+}
+
+th {
+  background-color: var(--colorPrimary);
+  color: var(--white);
+  text-transform: uppercase;
+}
+
 input:focus,
 textarea:focus {
   outline: 1px solid var(--colorPrimary);
@@ -72,8 +88,9 @@ body {
   --black: #000000;
 
   --colorPrimary: #9bb537;
-  --colorSecondary: #888888;
-  --colorBody: #f9f9f9;
+  --colorSecondary: #f5f5f5;
+  --colorText: #6b6b6b;
+  --colorBody: #eaedee;
 
   --colorBorder: rgb(185 184 184 / 20%);
 

@@ -1,14 +1,16 @@
-export const FriendItem = user => {
+import styles from './FriendItem.module.css';
+
+export const FriendItem = ({ avatarUrl, name, status }) => {
   return (
-    <li className="item">
-      <span className="status">{user.status === true ? 'true' : 'false'}</span>
+    <li className={styles.item}>
+      <span className={styles[status]}></span>
       <img
-        className="avatar"
-        src={user.avatarUrl}
+        className={styles.avatar}
+        src={avatarUrl}
         alt="User avatar"
         width="48"
       />
-      <p className="name">{user.name}</p>
+      <p className={styles.name}>{name}</p>
     </li>
   );
 };

@@ -1,4 +1,3 @@
-import React from 'react';
 import { FriendItem } from './FriendItem/FriendItem';
 import styles from './FriendList.module.css';
 
@@ -10,7 +9,8 @@ export const FriendList = ({ friends }) => {
           key={item.id}
           avatarUrl={item.avatar}
           name={item.name}
-          status={item.isOnline}
+          status={item.isOnline === true ? 'online' : 'offline'}
+          variant="error"
         />
       ))}
     </ul>
